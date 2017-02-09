@@ -22,22 +22,22 @@ $(document).ready(function(){
         $(window).scroll(function(){
             if ( $(this).scrollTop() > 75 && $( window ).width()>991
                ){
-                $('.header-main>h1').addClass('mt295');
+               
                 $('.navbar-default').addClass("h55");
                $('.navbar-brand h1').addClass("lh55");
                 $('.navbar-nav>li>a').addClass("lh55");
                 $menu.addClass("fixed");
             }
              else if($(this).scrollTop() <= 75 && $menu.hasClass("fixed") && $( window ).width()>991)
-                 {$('.header-main>h1').removeClass('mt295');
+                 {
                 $('.navbar-default').removeClass("h55");
                $('.navbar-brand h1').removeClass("lh55");
                 $('.navbar-nav>li>a').removeClass("lh55");
                  $menu.removeClass("fixed");}
                  
                  
-            else if($(this).scrollTop() > 130 && $( window ).width()>767 && $( window ).width()<992){
-                $('.header-main>h1').addClass('pt350');
+           else if($(this).scrollTop() > 130 && $( window ).width()>767 && $( window ).width()<992){
+              
                  $('.navbar-default').addClass("h55");
                $('.navbar-brand h1').addClass("lh55");
                 $('.navbar-nav>li>a').addClass("lh55");
@@ -46,7 +46,7 @@ $(document).ready(function(){
                 $menu.addClass("fixed");
             }
             else if($(this).scrollTop() < 130 && $( window ).width()>767 && $( window ).width()<992){
-               $('.header-main>h1').removeClass('pt350');
+               
                 $menu.removeClass("fixed");
                 $('.navbar-default').removeClass("h55");
                $('.navbar-brand h1').removeClass("lh55");
@@ -60,7 +60,7 @@ $(document).ready(function(){
             
             
             else if($(this).scrollTop() <= 75 && $menu.hasClass("fixed")) {
-                $('.header-main>h1').removeClass('mt295');
+                
                 $menu.removeClass("fixed");
             }
         });//scroll

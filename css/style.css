@@ -8,6 +8,7 @@ body{
     padding: 0;
 }
 /*fixed*/
+
 .display-none{
     display: none;
 }
@@ -18,21 +19,18 @@ body{
     line-height: 55px !important;
 }
 .fixed{
-    position: fixed;
+    position: fixed !important;
     top: 0;
+    height: 75px;
+    left: 0;
+    right: 0;
     background: #fff !important;
     width: 100%;
     display: block;
     
    
 }
-.pt350{
-    padding-top: 350px !important;
-}
-.mt295{
-  padding-top: 295px !important;
-   
-}
+/*fixed*/
 p{
     font-size:14px; 
 }
@@ -46,11 +44,17 @@ p{
     border-radius: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     /*transition:all .3s ease;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    
     
 }
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
+    
 }
 
 .navbar .navbar-collapse {
@@ -183,6 +187,9 @@ header{
     background: url('../img/header-1.jpg') 0 0 no-repeat;
     height: 950px;
     background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 .header-main{
 font-family: 'Montserrat', sans-serif;
