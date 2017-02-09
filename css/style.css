@@ -7,6 +7,32 @@ body{
     margin: 0;
     padding: 0;
 }
+/*fixed*/
+.display-none{
+    display: none;
+}
+.h55{
+    height: 55px !important;
+}
+.lh55{
+    line-height: 55px !important;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    background: #fff !important;
+    width: 100%;
+    display: block;
+    
+   
+}
+.pt350{
+    padding-top: 350px !important;
+}
+.mt295{
+  padding-top: 295px !important;
+   
+}
 p{
     font-size:14px; 
 }
@@ -19,7 +45,8 @@ p{
     border: none;
     border-radius: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    transition:all .3s ease;
+    /*transition:all .3s ease;*/
+    
 }
 .navbar .navbar-nav {
     display: inline-block;
@@ -172,7 +199,7 @@ font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
     letter-spacing: 0.02em;
     line-height: 60px;
-    margin-top: 200px;
+    padding-top: 200px;
 }
 .header-main p{
     font-size: 30px;
