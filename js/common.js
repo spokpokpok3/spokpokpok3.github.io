@@ -36,7 +36,7 @@ $(document).ready(function(){
                  $menu.removeClass("fixed");}
                  
                  
-           else if($(this).scrollTop() > 130 && $( window ).width()>767 && $( window ).width()<992){
+           else if($(this).scrollTop() > 100 && $( window ).width()>767 && $( window ).width()<992){
               
                  $('.navbar-default').addClass("h55");
                $('.navbar-brand h1').addClass("lh55");
@@ -45,7 +45,7 @@ $(document).ready(function(){
                 $('.navbar-right').addClass('hidden-sm');
                 $menu.addClass("fixed");
             }
-            else if($(this).scrollTop() < 130 && $( window ).width()>767 && $( window ).width()<992){
+            else if($(this).scrollTop() < 100 && $( window ).width()>767 && $( window ).width()<992){
                
                 $menu.removeClass("fixed");
                 $('.navbar-default').removeClass("h55");

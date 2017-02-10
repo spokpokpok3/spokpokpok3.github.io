@@ -5,6 +5,9 @@
 header{
     height: 550px;
 }
+    main{
+    padding-top: 550px;
+}
 .header-main h1{
     margin-top: -50px;    
     }
@@ -47,6 +50,9 @@ header{
     }
     .header-main h1{
     margin-top: -10px;    
+    }
+    .features-block{
+        text-align: center;
     }
     
 } 
@@ -98,6 +104,9 @@ animation: none !important;
     }
     header{
     height: 450px;
+}
+    main{
+    padding-top: 450px;
 }
     .header-main h1{
         margin-top: -100px;
