@@ -82,14 +82,14 @@ count++;
     count=0;
 });*/
 
-var imgHead = [
+/*var imgHead = [
 			'../img/header-1.jpg',
     '../img/header-3.jpg',
     '../img/header-4.jpg' 
 		], i=1;
 	function csaHead(){
 
-		if(i > (imgHead.length-1)){
+		if(i > (imgHead.length-1)&& $( window ).width()<769){
 			$('header').animate({'opacity':'1'},0,function(){
 				i=1;
 				$('header').css({'background':'url('+imgHead[0]+')'});
@@ -103,7 +103,24 @@ var imgHead = [
 		}
 		
 	}
-	var intervalCsaHead = setInterval(csaHead,4000);
+	var intervalCsaHead = setInterval(csaHead,4000);*/
+var imgHead = [
+			'../img/header-1.jpg',
+    '../img/header-3.jpg',
+    '../img/header-4.jpg' 
+		], i=1;
+	function csaHead(){
+
+		if(i > (imgHead.length-1)){
+            i=1;
+	$('header').css({'background':'url('+imgHead[0]+')'});
+		}else{
+            $('header').css({'background':'url('+imgHead[i]+')'});
+				i++;
+		}
+		
+	}
+	var intervalCsaHead = setInterval(csaHead,3000);
 
 
 
