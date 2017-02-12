@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    min-width: 320px;
+    min-width: 320px !important;
 }
 * {
     margin: 0;
@@ -168,6 +168,7 @@ p{
         }
         .trans{
             transform: rotate(-90deg);
+            transform: 
         }
 
 .navbar-toggle{
@@ -324,6 +325,67 @@ background: #f5f5f5;
     line-height: 25px;
 }
 /*features-end*/
+/*progress-block*/
+.progress-block{
+    margin-top:550px;
+    padding-bottom: 50px;
+}
+.progress-block h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #34495e;
+    font-size: 47px;
+}
+.progress-block p{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+        font-family: 'Lato',sans-serif;
+    padding-top: 15px;
+    width: 470px;
+}
+ .progress{
+    background-color: #edf4f8;
+    border-radius: 36px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    width:510px;
+    height:10px;
+    }
+.progress-bar{
+    background: linear-gradient(to right,#ff4081 0%,#1398d9 100%);
+    border-radius:36px;
+         width: 100%;
+    height:10px;
+    display: none; 
+            transition: none !important;
+    }
+.progress-aside>p{
+    color: #a7b0b4;
+        font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.progress-aside>p:first-child{
+    padding-top: 60px;
+}
+.progress-line{
+    height: 35px;
+}
+.progress-line .percent{
+        font-size: 12px;
+        color: #a7b0b4;
+        font-family: 'Montserrat',sans-serif;
+        text-align: left;
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 10px;
+}
+.progress-line .progress, .progress-line .percent{
+    display: inline-block;
+}
+/*progress-block-end*/
 /*main-end*/
 
 
@@ -333,11 +395,4 @@ background: #f5f5f5;
 
 	100%	{ transform: translateY(0); 
     opacity: 1;}
-	}
-
-/*@keyframes background-header {
-	1%{ background:url('../img/header-1.jpg') 0 0 no-repeat; }
-	50%	{ background: url('../img/header-3.jpg') 0 0 no-repeat; }
-	100%	{ background: url('../img/header-4.jpg') 0 0 no-repeat;}
-    
 	}

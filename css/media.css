@@ -29,6 +29,10 @@ header{
     .navbar-nav>li>a{
         padding: 0 10px;
     }
+    
+    .progress{
+        width: 410px;
+    }
 } 
 
 /* Medium Devices, Desktops */ 
@@ -53,6 +57,21 @@ header{
     }
     .features-block{
         text-align: center;
+    }
+    .progress-block{
+        margin-top:700px;
+    }
+    .left-progress-block p {
+        width: 100%;
+        text-align: center;
+    }
+    .progress-block h3{
+        text-align: center;
+        font-size: 28px;
+    }
+    .progress{
+        width: 95%;
+        
     }
     
 } 
@@ -122,13 +141,38 @@ animation: none !important;
        font-size: 22px;
      
     }
+    .progress-block{
+        
+        margin-top:1000px;
+    }
+    .progress{
+        width: 92%;
+        
+    }
 } 
-
+@media only screen and (max-width : 714px) { 
+.progress-block{
+        
+        margin-top:1100px;
+    }
+} 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) { 
-
+.progress{
+        width: 88%;
+        
+    }
+    .progress-block{
+        
+        margin-top:1150px;
+    }
 } 
-
+@media only screen and (max-width : 383px) { 
+.progress-block{
+        
+        margin-top:1300px;
+    }
+} 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) { 
 
