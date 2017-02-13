@@ -75,15 +75,18 @@ header{
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
     .blog-post{
-        width: 370px;
+        width: 100%;
         text-align: center;
         padding-bottom: 30px;
     }
     .blog-post .read-more{
-    width: 340px;
+    width: 100%;
         margin:10px 0;
         display: block;
 }
+    .blog-post img{
+        margin: 0 auto;
+    }
     
 } 
 
