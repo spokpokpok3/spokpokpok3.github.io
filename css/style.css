@@ -44,7 +44,7 @@ p{
     border: none;
     border-radius: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;  
     z-index: 9999;
@@ -151,8 +151,8 @@ p{
         .mobile-menu{
             width: 270px;
             background: #fff;
-            z-index: 9999;
-            
+            z-index: 99;
+            padding-bottom: 55px;
             top: 55px;
             left: 0;
             display: none;
@@ -190,6 +190,9 @@ p{
 }
 .social-xs i{
     padding-right: 15px;
+}
+.active{
+    color: rgb(20, 165, 235)!important;
 }
 /*mobile-menu-end*/
 /*nav-end*/
