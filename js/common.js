@@ -105,8 +105,6 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if(!show) return false;  
     if ( $(this).scrollTop()+$(window).height() > numY.top+160){
-        
-    
     $(".spincrement").spincrement({
     from: 0,  
         to: $(".spincrement").attr('data-num'),

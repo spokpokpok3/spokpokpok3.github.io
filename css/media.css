@@ -74,6 +74,17 @@ header{
       .number-block:nth-child(3){
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
+    .blog-post{
+        width: 370px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .blog-post .read-more{
+    width: 340px;
+        margin:10px 0;
+        display: block;
+}
+    
 } 
 
 /* Small Devices, Tablets */ 
@@ -153,6 +164,12 @@ animation: none !important;
       .number-block:nth-child(4),.number-block:nth-child(2){
     border-left: 1px solid rgba(255, 255, 255, 0.1)!important;
 }
+    .subscribe input{
+        width: 100%;
+    }
+    .subscribe button{
+        margin-top: 50px;
+    }
   
 } 
  
