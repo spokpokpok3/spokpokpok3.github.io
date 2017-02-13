@@ -118,3 +118,36 @@ $(document).ready(function(){
 });
 
 
+/*slider*/
+$(document).ready(function(){
+      $('.slider').slick();
+    });
+    
+    $('.slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+        infinite:true,
+        arrows:true,
+        prevArrow:'<i class="fa fa-angle-left slider-btn" aria-hidden="true"></i>',
+        nextArrow:'<i class="fa fa-angle-right slider-btn" aria-hidden="true"></i>',
+        appendArrows:'.arrow',
+         responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});

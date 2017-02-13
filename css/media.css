@@ -33,6 +33,9 @@ header{
     .progress{
         width: 410px;
     }
+    .social h1{
+        font-size: 45px;
+    }
 } 
 
 /* Medium Devices, Desktops */ 
