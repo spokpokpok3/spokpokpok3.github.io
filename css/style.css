@@ -193,11 +193,9 @@ header{
     height: 950px;
     background-size: cover;
     position: absolute;
-   /* animation: background-header 15s infinite ;*/
-    transition: all 0.9s;
+    transition: background 0.9s;
     left: 0;
-    right: 0;
-    
+    right: 0;  
 }
 .header-main{
 font-family: 'Montserrat', sans-serif;
