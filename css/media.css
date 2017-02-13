@@ -58,9 +58,7 @@ header{
     .features-block{
         text-align: center;
     }
-    .progress-block{
-        margin-top:700px;
-    }
+   
     .left-progress-block p {
         width: 100%;
         text-align: center;
@@ -70,10 +68,12 @@ header{
         font-size: 28px;
     }
     .progress{
-        width: 95%;
+       width: 92%;
         
     }
-    
+      .number-block:nth-child(3){
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
 } 
 
 /* Small Devices, Tablets */ 
@@ -141,38 +141,34 @@ animation: none !important;
        font-size: 22px;
      
     }
-    .progress-block{
-        
-        margin-top:1000px;
-    }
+    
     .progress{
         width: 92%;
         
     }
-} 
-@media only screen and (max-width : 714px) { 
-.progress-block{
-        
-        margin-top:1100px;
+    .number-block{
+        width: 50%;
+        border:none !important;
     }
+      .number-block:nth-child(4),.number-block:nth-child(2){
+    border-left: 1px solid rgba(255, 255, 255, 0.1)!important;
+}
+  
 } 
+ 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) { 
 .progress{
         width: 88%;
         
     }
-    .progress-block{
-        
-        margin-top:1150px;
+    .number-block,.number-block:nth-child(4),.number-block:nth-child(2){
+        width: 100%;
+        border:none !important;
     }
+  
 } 
-@media only screen and (max-width : 383px) { 
-.progress-block{
-        
-        margin-top:1300px;
-    }
-} 
+
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) { 
 

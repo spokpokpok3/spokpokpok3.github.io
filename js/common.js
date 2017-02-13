@@ -79,6 +79,7 @@ var imgHead = [
 	}
 	var intervalCsaHead = setInterval(csaHead,3000);
 
+
 /*progress bar anim*/
 
 $(document).ready(function(){
@@ -96,4 +97,26 @@ $(".progress").offset();
        
         });//scroll
     });
+
+/*numbers anim*/
+$(document).ready(function(){
+    var show = true;
+    var numY = $(".number-block").offset();
+    $(window).scroll(function(){
+        if(!show) return false;  
+    if ( $(this).scrollTop()+$(window).height() > numY.top+160){
+        
+    
+    $(".spincrement").spincrement({
+    from: 0,  
+        to: $(".spincrement").attr('data-num'),
+    decimalPlaces: 0,      // Разделитель десятичной части числа
+    thousandSeparator: "", // Разделитель тыcячных
+    duration: 1500          // Продолжительность анимации в 
+});
+    show = false;
+    }
+         });//scroll
+});
+
 
