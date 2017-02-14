@@ -90,6 +90,9 @@
     .blog-post img {
         margin: 0 auto;
     }
+    .slider-section h2{
+        font-size: 35px;
+    }
 }
 
 
@@ -172,6 +175,10 @@ animation: none !important;
     }
     .subscribe button {
         margin-top: 50px;
+    }
+    .theme h2{
+        padding-top: 20px;
+        font-size: 35px;
     }
 }
 

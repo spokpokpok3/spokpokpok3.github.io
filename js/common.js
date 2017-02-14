@@ -51,29 +51,6 @@ $(document).ready(function () {
     }); //scroll
 });
 
-/*var imgHead = [
-			'../img/header-1-min.jpg'
-    , '../img/header-3-min.jpg'
-    , '../img/header-4-min.jpg'
-		]
-    , i = 1;
-
-function csaHead() {
-    if (i > (imgHead.length - 1)) {
-        i = 1;
-        $('header').css({
-            'background': 'url(' + imgHead[0] + ')'
-        });
-    }
-    else {
-        $('header').css({
-            'background': 'url(' + imgHead[i] + ')'
-        });
-        i++;
-    }
-}
-var intervalCsaHead = setInterval(csaHead, 3000);*/
-
 /*progress bar anim*/
 $(document).ready(function () {
     var barY = $(".progress").offset();

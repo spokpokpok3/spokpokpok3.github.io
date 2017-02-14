@@ -241,10 +241,10 @@ header {
     height: 950px;
     background-size: cover;
     position: absolute;
-    /*transition: background 0.9s;*/
     left: 0;
     right: 0;
-    animation: bgslide 15s linear infinite;
+    animation: bgslide 5s linear infinite;
+    width: 100%;
 }
 
 .header-main {
