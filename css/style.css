@@ -885,19 +885,29 @@ main {
 .button-scroll{
     width: 50px;
     height: 50px;
-    background: blue;
+    color: #FFF;
+    background: #14a5eb;
     border-radius: 50%;
     z-index: 99999;
     position: fixed;
     bottom:40px;
     right: 50px;
-    transition: all 0.3s linear;
-    transform: translateY(90px);
+    transition: all 0.1s linear;
+    transform: translateY(95px);
+    text-align: center;
+    
 }
 .button-scroll-display{
     display: block;
     transform: translateY(0px)!important;
 }
+.button-scroll i{
+    font-size: 28px;
+ padding: 8px 0 0 0;
+    
+}
+
+
 /*footer-end*/
 
 

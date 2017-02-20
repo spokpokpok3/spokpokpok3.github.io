@@ -118,9 +118,9 @@ $('.slider').slick({
 
 /*button scroll*/
 $(document).ready(function () {
-    
+    var header_offset = $("header").offset();
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if (($(this).scrollTop() > 300 && $(window).width() > 767)||header_offset.top > 300 ) {
             $(".button-scroll").addClass("button-scroll-display");
            
         }
