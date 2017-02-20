@@ -195,6 +195,9 @@ animation: none !important;
         width: 100%;
         border: none !important;
     }
+    .slider-section .slider-descr{
+        font-size: 16px;
+    }
 }
 
 
